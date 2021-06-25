@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import Slide from "./Slide/Slide";
@@ -11,13 +11,15 @@ import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/scrollbar/scrollbar.min.css";
 
+
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y,Autoplay]);
 
 function VerticalSlider() {
   return (
     <Swiper
       style={{ zIndex: "1" }}
+      autoplay={true}
       className="h-50"
       spaceBetween={50}
       slidesPerView={1}
