@@ -1,9 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
   font-family: 'Helvetica Now Display', Helvetica, sans-serif;
+}
+p {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 :root {
   --themePurple : #5773FF;
@@ -13,4 +14,23 @@
   --themeSilver : #E8ECEF;
   --themeLightSilver : #EEF2F3;
   --themeWhite : #FFFFFF;
+}
+.theme-secondary-black {
+  background-color: var(--themeSecondaryBlack) !important;
+  color: var(--themeWhite) !important;
+}
+.theme-black {
+  background-color: var(--themeBlack) !important;
+  color: var(--themeWhite) !important;
+}
+.bg-themeGrey {
+  background-color: var(--themeGrey) !important;
+  color: var(--themeWhite) !important;
+}
+.text-themeGrey {
+  color: var(--themeGrey) !important;
+}
+.full-page {
+  height: 100vh;
+  width: 100vw;
 }
