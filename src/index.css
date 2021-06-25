@@ -36,6 +36,9 @@ p {
   background-color: var(--themePurple) !important;
   color: var(--themeWhite) !important;
 }
+.text-themePurple {
+  color: var(--themePurple) !important;
+}
 .text-themeGrey {
   color: var(--themeGrey) !important;
 }

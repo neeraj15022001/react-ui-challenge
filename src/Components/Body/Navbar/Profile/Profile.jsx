@@ -1,7 +1,7 @@
 import React from "react";
 import { BellFill, GearFill } from "react-bootstrap-icons";
 
-function Profile({className}) {
+function Profile({ className }) {
   const ImageStyle = {
     height: "2rem",
     width: "auto",
@@ -11,7 +11,9 @@ function Profile({className}) {
     textWrap: "no-wrap",
   };
   return (
-    <div className={`${className} d-flex align-items-center justify-content-start w-auto`}>
+    <div
+      className={`${className} d-flex align-items-center justify-content-start w-auto`}
+    >
       <BellFill className="me-3" />
       <GearFill className="me-3" />
       <div className="p-0 m-0">
