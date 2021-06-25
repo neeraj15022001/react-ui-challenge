@@ -8,10 +8,10 @@ function App() {
     <div>
       <Container className="bg-success full-page" fluid>
         <Row className="full-page">
-          <Col xs={2} className="p-0 m-0 full-page">
+          <Col xs={2} className="p-0 m-0 full-height">
             <Sidebar />
           </Col>
-          <Col xs={10} className="p-0 m-0 full-page">
+          <Col xs={10} className="p-0 m-0 full-height">
             <Body />
           </Col>
         </Row>
