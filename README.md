@@ -1,5 +1,7 @@
 # Music-App
+
 ## React UI Challenge
+
 <img src="./design.png" alt="design" />
 <img src="./components.png" alt="design" />
 <img src="./design-dark-mode.webp" alt="design" />

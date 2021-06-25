@@ -1,19 +1,19 @@
 * {
   box-sizing: border-box;
-  font-family: 'Helvetica Now Display', Helvetica, sans-serif;
+  font-family: "Helvetica Now Display", Helvetica, sans-serif;
 }
 p {
   margin: 0 !important;
   padding: 0 !important;
 }
 :root {
-  --themePurple : #5773FF;
-  --themeBlack : #25252D;
-  --themeSecondaryBlack :  #32323D;
-  --themeGrey : #B2B6B9;
-  --themeSilver : #E8ECEF;
-  --themeLightSilver : #EEF2F3;
-  --themeWhite : #FFFFFF;
+  --themePurple: #5773ff;
+  --themeBlack: #25252d;
+  --themeSecondaryBlack: #32323d;
+  --themeGrey: #b2b6b9;
+  --themeSilver: #e8ecef;
+  --themeLightSilver: #eef2f3;
+  --themeWhite: #ffffff;
 }
 .theme-secondary-black {
   background-color: var(--themeSecondaryBlack) !important;

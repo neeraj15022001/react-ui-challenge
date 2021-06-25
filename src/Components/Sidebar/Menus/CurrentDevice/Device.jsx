@@ -12,7 +12,7 @@ function Device({ className }) {
             <Image
               src="https://www.cnet.com/a/img/JEPfO1ehrZLl-2Wkwc4bGXkr6u0=/940x0/2017/06/27/644ebb5d-99b6-4076-9977-528fb70f0dea/homepod.jpg"
               alt="google homepod"
-              className='rounded-3'
+              className="rounded-3"
               fluid
             />
           </Col>
@@ -26,7 +26,7 @@ function Device({ className }) {
         </Row>
       </Container>
       <Container className="bg-dark rounded-2 text-white" fluid>
-          <ListItem icon={<Rainbow />} title="playing on device" />
+        <ListItem icon={<Rainbow />} title="playing on device" />
       </Container>
     </div>
   );

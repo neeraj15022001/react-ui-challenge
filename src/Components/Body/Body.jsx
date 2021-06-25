@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Body() {
-    return (
+  return (
     <div className="theme-black h-100 py-2 px-3">
-            <h1>Body</h1>
-        </div>
-    )
+      <h1>Body</h1>
+    </div>
+  );
 }
 
-export default Body
+export default Body;
