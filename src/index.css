@@ -9,7 +9,8 @@ p {
 :root {
   --themePurple: #5773ff;
   --themeBlack: #25252d;
-  --themeSecondaryBlack: #32323d;
+  --themeSecondaryBlack: #49494d;
+  --themeTertiaryBlack: #32323d;
   --themeGrey: #b2b6b9;
   --themeSilver: #e8ecef;
   --themeLightSilver: #eef2f3;
@@ -17,6 +18,10 @@ p {
 }
 .theme-secondary-black {
   background-color: var(--themeSecondaryBlack) !important;
+  color: var(--themeWhite) !important;
+}
+.theme-tertiary-black {
+  background-color: var(--themeTertiaryBlack) !important;
   color: var(--themeWhite) !important;
 }
 .theme-black {
@@ -27,10 +32,17 @@ p {
   background-color: var(--themeGrey) !important;
   color: var(--themeWhite) !important;
 }
+.bg-themePurple {
+  background-color: var(--themePurple) !important;
+  color: var(--themeWhite) !important;
+}
 .text-themeGrey {
   color: var(--themeGrey) !important;
 }
 .full-page {
   height: 100vh;
   width: 100vw;
+}
+.placeholder-white::placeholder {
+  color: var(--themeWhite) !important;
 }
