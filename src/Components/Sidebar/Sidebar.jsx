@@ -7,7 +7,7 @@ import { default as CurrentDevice } from "./Menus/CurrentDevice/Device";
 
 function Sidebar() {
   return (
-    <div className="theme-secondary-black h-100 p-3 overflow-auto" id="sidebar">
+    <div className="theme-tertiary-black h-100 p-3 overflow-auto" id="sidebar">
       <Brand className="mb-4" />
       <Menu className="mb-4" />
       <Library className="mb-4" />
