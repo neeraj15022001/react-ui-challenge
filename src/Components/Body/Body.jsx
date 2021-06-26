@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 import VerticalSlider from "./VerticalSlider/VerticalSlider";
-import GridSection from "./GridSection/GridSection"
+import GridSection from "./GridSection/GridSection";
 
 function Body() {
   return (

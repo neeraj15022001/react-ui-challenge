@@ -52,3 +52,6 @@ p {
 .placeholder-white::placeholder {
   color: var(--themeWhite) !important;
 }
+.fs-small {
+  font-size: small !important;
+}

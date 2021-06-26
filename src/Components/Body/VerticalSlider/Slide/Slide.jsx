@@ -11,8 +11,8 @@ function Slide() {
   const likeButtonStyle = {
     width: "2.5rem",
     height: "2.5rem",
-    backgroundColor: "transparent"
-  }
+    backgroundColor: "transparent",
+  };
   return (
     <div className="w-100 h-100" style={slideStyle}>
       <Container fluid>
@@ -21,14 +21,25 @@ function Slide() {
             <Container style={{ marginTop: "6rem" }} fluid>
               <p className="fw-bold text-capitalize fs-5">trending new hits</p>
               <Container>
-                <p className="display-3 text-capitalize fw-bold mt-3">in my feelings</p>
+                <p className="display-3 text-capitalize fw-bold mt-3">
+                  in my feelings
+                </p>
                 <div className="d-flex align-items-center justify-content-start mb-3">
-                  <p className="fw-bold fs-4 me-4 text-capitalize">camila cabello</p>
-                  <p className="fw-normal fs-5 text-capitalize text-themeGrey">63million plays</p>
+                  <p className="fw-bold fs-4 me-4 text-capitalize">
+                    camila cabello
+                  </p>
+                  <p className="fw-normal fs-5 text-capitalize text-themeGrey">
+                    63million plays
+                  </p>
                 </div>
                 <div className="d-flex align-items-center justify-content-start">
-                  <button className="border-0 rounded-pill text-capitalize me-3 py-2 px-3 bg-themePurple">listen now</button>
-                  <button className="rounded-circle border-1 border-white" style={likeButtonStyle}>
+                  <button className="border-0 rounded-pill text-capitalize me-3 py-2 px-3 bg-themePurple">
+                    listen now
+                  </button>
+                  <button
+                    className="rounded-circle border-1 border-white"
+                    style={likeButtonStyle}
+                  >
                     <HeartFill className="text-themePurple fs-5" />
                   </button>
                 </div>
