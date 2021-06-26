@@ -90,11 +90,11 @@ function GridSection() {
             <Row className="h-100">
               <Col xs={4} className="py-2 px-0">
                 <Container
-                  className="theme-tertiary-black rounded-3 h-100 px-0 overflow-auto"
+                  className="theme-tertiary-black rounded-3 px-0   h-100"
                   fluid
                 >
                   <CardHeadline title="genres" secondaryTitle="see all" />
-                  <Container>
+                  <Container className="d-flex flex-column overflow-auto" style={{height: "9rem"}}>
                     <Row style={{height: "5rem"}} className="mb-3">
                       <Col  className="px-1">
                         <GenreCard
@@ -111,7 +111,23 @@ function GridSection() {
                         />
                         </Col>
                     </Row>
-                    <Row style={{height: "5rem"}}>
+                    <Row style={{height: "5rem"}} className="mb-3">
+                      <Col xs={8} className="px-1">
+                        <GenreCard
+                          line1="alternative"
+                          line2="indie"
+                          bgColor="lightcoral"
+                        />
+                      </Col>
+                      <Col xs={4} className="px-1">
+                      <GenreCard
+                          line1="hip"
+                          line2="hop"
+                          bgColor="teal"
+                        />
+                        </Col>
+                    </Row>
+                    <Row style={{height: "5rem"}} className="mb-3">
                       <Col xs={8} className="px-1">
                         <GenreCard
                           line1="alternative"
@@ -128,7 +144,6 @@ function GridSection() {
                         </Col>
                     </Row>
                   </Container>
-                  <GenreCard line1 />
                 </Container>
               </Col>
               <Col xs={8} className="py-2 ps-3 pe-0">
