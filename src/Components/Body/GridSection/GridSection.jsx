@@ -4,6 +4,7 @@ import "./GridSection.css";
 import CardHeadline from "./CardHeadline/CardHeadline";
 import { MusicNoteList } from "react-bootstrap-icons";
 import GenreCard from "./GenreCard/GenreCard";
+import ArtistSection from "./ArtistSection/ArtistSection";
 
 function GridSection() {
   return (
@@ -16,7 +17,7 @@ function GridSection() {
               fluid
             >
               <CardHeadline title="top artists" secondaryTitle="see all" />
-              
+              <ArtistSection />
             </Container>
           </Container>
           <Container className="h-50" fluid>

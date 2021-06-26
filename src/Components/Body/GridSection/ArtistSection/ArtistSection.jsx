@@ -1,5 +1,6 @@
 import React from 'react'
 import ArtistCard from "./ArtistCard/ArtistCard";
+import {Container} from "react-bootstrap"
 import {
   alan,
   billie,
