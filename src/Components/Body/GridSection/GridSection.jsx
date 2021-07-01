@@ -6,6 +6,7 @@ import { MusicNoteList } from "react-bootstrap-icons";
 import GenreSection from "./GenreSection/GenreSection"
 import ArtistSection from "./ArtistSection/ArtistSection";
 import ChartsSection from "./ChartsSection/ChartsSection";
+import PlayerSection from "./PlayerSection/PlayerSection";
 
 function GridSection() {
   return (
@@ -50,6 +51,7 @@ function GridSection() {
             fluid
           >
             <CardHeadline title="player" secondaryTitle={<MusicNoteList />} />
+            <PlayerSection />
           </Container>
         </Col>
       </Row>
