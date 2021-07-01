@@ -32,9 +32,15 @@ p {
   background-color: var(--themeGrey) !important;
   color: var(--themeWhite) !important;
 }
+.bg-themeSecondaryBlack {
+  background-color: var(--themeSecondaryBlack) !important;
+}
 .bg-themePurple {
   background-color: var(--themePurple) !important;
   color: var(--themeWhite) !important;
+}
+.border-themeGrey {
+  border: 1px solid var(--themeGrey) !important;
 }
 .text-themePurple {
   color: var(--themePurple) !important;

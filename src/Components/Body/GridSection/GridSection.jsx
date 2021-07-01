@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./GridSection.css";
-import CardHeadline from "./CardHeadline/CardHeadline";
+import CardHeadline from "./Common/CardHeadline/CardHeadline";
 import { MusicNoteList } from "react-bootstrap-icons";
-import GenreCard from "./GenreCard/GenreCard";
+import GenreSection from "./GenreSection/GenreSection"
 import ArtistSection from "./ArtistSection/ArtistSection";
+import ChartsSection from "./ChartsSection/ChartsSection";
 
 function GridSection() {
   return (
@@ -28,56 +29,7 @@ function GridSection() {
                   fluid
                 >
                   <CardHeadline title="genres" secondaryTitle="see all" />
-                  <Container className="d-flex flex-column overflow-auto" style={{height: "9rem"}}>
-                    <Row style={{height: "5rem"}} className="mb-3">
-                      <Col  className="px-1">
-                        <GenreCard
-                          line1="dance"
-                          line2="beat"
-                          bgColor="lightblue"
-                        />
-                      </Col>
-                      <Col  className="px-1">
-                      <GenreCard
-                          line1="electro"
-                          line2="pop"
-                          bgColor="burlywood"
-                        />
-                        </Col>
-                    </Row>
-                    <Row style={{height: "5rem"}} className="mb-3">
-                      <Col xs={8} className="px-1">
-                        <GenreCard
-                          line1="alternative"
-                          line2="indie"
-                          bgColor="lightcoral"
-                        />
-                      </Col>
-                      <Col xs={4} className="px-1">
-                      <GenreCard
-                          line1="hip"
-                          line2="hop"
-                          bgColor="teal"
-                        />
-                        </Col>
-                    </Row>
-                    <Row style={{height: "5rem"}} className="mb-3">
-                      <Col xs={8} className="px-1">
-                        <GenreCard
-                          line1="alternative"
-                          line2="indie"
-                          bgColor="lightcoral"
-                        />
-                      </Col>
-                      <Col xs={4} className="px-1">
-                      <GenreCard
-                          line1="hip"
-                          line2="hop"
-                          bgColor="teal"
-                        />
-                        </Col>
-                    </Row>
-                  </Container>
+                  <GenreSection />
                 </Container>
               </Col>
               <Col xs={8} className="py-2 ps-3 pe-0">
@@ -86,6 +38,7 @@ function GridSection() {
                   fluid
                 >
                   <CardHeadline title="top charts" secondaryTitle="see all" />
+                  <ChartsSection />
                 </Container>
               </Col>
             </Row>

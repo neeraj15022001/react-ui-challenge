@@ -10,7 +10,7 @@ import {
   martin,
   nicki,
   travis,
-} from "../Images.js";
+} from "./Images.js";
 
 function ArtistSection() {
     return (
